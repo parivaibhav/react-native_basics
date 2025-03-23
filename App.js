@@ -28,7 +28,7 @@ function HomeScreen() {
         // onChangeText={setText}
         />
         <Button title='Login'
-          onPress={() => Alert.alert("Login SucessFul")} color="#000" style={styles.btn} />
+          onPress={() => Alert.alert("Login SucessFully")} color="#000" style={{fontSize:15,FontFace:"Poppins"}} />
       </View>
 
     </View>
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     // gap: 5,
     alignContent: 'space-around',
     justifyContent: 'space-around',
-    fontFamily: 'Poppins_700Bold'
+    fontFamily: 'Poppins Regular'
   },
   label: {
     fontSize: 18,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 1,
     paddingHorizontal: 10,
-    borderRadius: 10,
+    borderRadius: 5,
   },
   output: {
     marginTop: 10,
